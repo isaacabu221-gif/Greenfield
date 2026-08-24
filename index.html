@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+                <head>
+                      <meta charset="UTF-8">
+                      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                      <title>School Admission Form</title>
+                      <link rel="stylesheet" href="style.css">
+				</head>
+				<body>
+						<div class= "container">
+							<header>
+									<h1>GREENFIELD SECODARY SCHOOL</h1>
+									<h2>School Admission Form</h2>
+							</header>
+							<form id= "admissionform">
+								<h3>Student Information</h3>
+								<div class= "form-group">
+									<label>Student Full Name</label>
+									<input type= "text" id= "studentName" placeholder= "Enter Full name"> 
+								</div>
+								<div class= "form-group">
+									<label>Date of Birth</label>
+									<input type= "date" id= "dob" >
+								</div>
+								<div class= "form-group">
+									<label>Gender</label>
+									<select id= "gender">
+										<option>male</option>
+										<option>female</option>
+										<option>other</option>
+									</select>	
+								</div>
+								<div class= "form-group">
+									<label>Passport Photograph</label>
+									<input type= "file">
+								</div>
+								<div class= "form-group">
+									<label>Admission Class</label>
+									<select id= "class">
+										<option>JSS1</option>
+										<option>JSS2</option>
+										<option>JSS3</option>
+										<option>SS1</option>
+										<option>SS2</option>
+										<option>SS3</option>
+									</select>
+								<h3>Parent/Guardian Information</h3>
+								<div class= "form-group">
+									<label>Parent/Guardian Name</label>
+									<input type= "text" id= "parentName"> 
+								</div>
+								<div class= "form-group">
+									<label>Phone-Number</label>
+									<input type= "tel" id= "phone"> 
+								</div>
+								<div class= "form-group">
+									<label>Email Address</label>
+									<input type= "email" id= "email"> 
+								</div>
+								<div class= "form-group">
+									<label>Home Address</label>
+									<textarea id= "adress"></textarea> 
+								</div>
+								<h3>Previous School Information</h3>
+								<div class= "form-group">
+									<label>Previous  School Name</label>
+									<input type= "text" > 
+								</div>
+								<div class= "form-group">
+									<label>Last Class Attended</label>
+									<input type= "text" > 
+								</div>
+								<div class= "form-group">
+								<h3>Medical Information</h3>
+								<div class= "form-group">
+									<label>Medical Condition</label>
+									<textarea></textarea>
+								</div>	
+								<div class= "form-group">
+									<input type= "checkbox" id= "agree">
+									<label>I confirm that the information provided is correct and to the best of my knowledge</label>
+								</div>
+								<button type= "submit">Submit Application<button>
+								<button type= "reset" class= "reset">Clear form<button>
+								
+							</form>
+						</div>
+						<script src= "script.js"></script>
+				</body>
+</html>
